@@ -1,3 +1,17 @@
+html {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 560px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+input:focus {
+    outline: none;
+}
+
 #App {
     display: flex;
     align-items: center;
@@ -6,6 +20,7 @@
     font-family: 'Montserrat', sans-serif;
     flex: 1;
     height: 100%;
+    justify-content: center;
     color: hsl(232, 13%, 33%);
     font-size: 15px;
 }
@@ -14,11 +29,15 @@
     color: hsl(232, 13%, 33%)
 }
 
-
+h1 {
+    text-align: center;
+}
 
 #toggle-block {
     display: flex;
     align-items: center;
     color: hsl(234, 14%, 74%)
 }
+
+
 

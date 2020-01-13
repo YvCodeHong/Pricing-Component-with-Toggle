@@ -1,0 +1,24 @@
+#App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+    flex: 1;
+    height: 100%;
+    color: hsl(232, 13%, 33%);
+    font-size: 15px;
+}
+
+.heading {
+    color: hsl(232, 13%, 33%)
+}
+
+
+
+#toggle-block {
+    display: flex;
+    align-items: center;
+    color: hsl(234, 14%, 74%)
+}
+
